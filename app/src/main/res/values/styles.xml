@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--toolbar-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/while_text_color</item>
+        <!--navigation back arrow color-->
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <!--设置menu 字体颜色-->
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextAppearance">@style/Theme.ToolBar.Base.menu</item>
+
+
+    </style>
+    <!-- 自定义的闪屏页主题-->
+    <style name="Theme.AppCompat.NoActionBar.splash"
+        parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!--full theme-->
+    <style name="PenguinWeather_FullTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--main theme-->
+    <style name="PenguinWeather_MainTheme" parent="AppTheme">
+        <!--<item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>-->
+        <!--<item name="vpiTabPageIndi-->
+        <!--910973catorWhiteStyle">@style/Widget.TabPageWhiteIndicator</item>-->
+        <item name="android:windowBackground">@color/backgroud_while_bg</item>
+        <item name="android:configChanges">
+            keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode
+        </item>
+    </style>
+
+    <style name="Theme.ToolBar.Base.menu" parent="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/color_toolbar_title</item>
+    </style>
+    <style name="tab_main_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@drawable/tab_main_text_check_selector</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

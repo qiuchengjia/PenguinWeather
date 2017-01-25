@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">企鹅天气</string>
+    <string name="radio_button_weather">天气</string>
+    <string name="radio_button_my">我的</string>
+    <string name="radio_button_share">分享</string>
+    <string name="radio_button_others">更多</string>
+    <string name="nav_toolbar_small_title_weather">tianqi</string>
+    <string name="nav_toolbar_small_title_my">wode</string>
+    <string name="nav_toolbar_small_title_share">fenxiang</string>
+    <string name="nav_toolbar_small_title_others">gengduo</string>
+    <string name="pulling">正在刷新</string>
+    <string name="pulled">刷新完成</string>
+</resources>

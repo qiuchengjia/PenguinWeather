@@ -1,0 +1,64 @@
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_bottom_layout_radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:checkedButton="@+id/tab_main_weather"
+    android:gravity="center_vertical"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:weightSum="1.8">
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_weight="0.2"
+        android:text=""
+        style="@style/tab_main_style" />
+    <RadioButton
+        android:checked="true"
+        android:gravity="right"
+        android:layout_weight="0.2"
+        android:id="@+id/tab_main_service"
+        android:text="@string/radio_button_weather"
+        style="@style/tab_main_style" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_weight="0.2"
+        android:text="|"
+        style="@style/tab_main_style" />
+
+    <RadioButton
+        android:gravity="center_horizontal"
+        android:layout_weight="0.2"
+        style="@style/tab_main_style"
+        android:id="@+id/tab_main_my"
+        android:text="@string/radio_button_my" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_weight="0.2"
+        android:text="|"
+        style="@style/tab_main_style" />
+
+    <RadioButton
+        android:gravity="center_horizontal"
+        android:layout_weight="0.2"
+        style="@style/tab_main_style"
+        android:id="@+id/tab_main_share"
+        android:text="@string/radio_button_share" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_weight="0.2"
+        android:text="|"
+        style="@style/tab_main_style" />
+    <RadioButton
+        android:gravity="left"
+        android:layout_weight="0.2"
+        style="@style/tab_main_style"
+        android:id="@+id/tab_main_others"
+        android:text="@string/radio_button_others" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_weight="0.2"
+        android:text=""
+        style="@style/tab_main_style" />
+
+</RadioGroup>
